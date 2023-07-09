@@ -1,3 +1,5 @@
+![alt text](https://github.com/snohatech/BezierRiver/blob/main/bezierfigure/bezier.gif)
+
 # BezierRiver
 Using Bézier curve to geometrically calculate river migration based on channel curvature 
 
