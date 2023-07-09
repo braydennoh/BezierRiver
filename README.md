@@ -10,6 +10,16 @@ def bezier_curve(control_points, t):
     for i in range(n + 1):
         result += control_points[i] * comb(n, i) * t**i * (1 - t)**(n - i)
     return result
+
+def comb(n, k):
+    return np.math.factorial(n) / (np.math.factorial(k) * np.math.factorial(n - k))
+
+def perpendicular_line(p1, p2):
+    midpoint = (p1 + p2) / 2
+    direction = p2 - p1
+    perp_direction = np.array([-direction[1], direction[0]])
+    perp_direction /= np.linalg.norm(perp_direction)
+    return midpoint, perp_direction
 ```
 Define control points. In this example, n = 4 (quadratic Bézier curve).
 ```
