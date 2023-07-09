@@ -1,6 +1,8 @@
 # BezierRiver
 Using Bézier curve to geometrically calculate river migration based on channel curvature 
 
+Define control points. In this example, n = 4 (quadratic Bézier curve)
+
 ```
 def bezier_curve(control_points, t):
     n = len(control_points) - 1
