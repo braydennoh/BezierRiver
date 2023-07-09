@@ -31,4 +31,4 @@ curve_points = np.array([bezier_curve(control_points, t) for t in t_values])
 plt.plot(curve_points[:, 0], curve_points[:, 1])
 plt.scatter(control_points[:, 0], control_points[:, 1], color='red')
 ```
-<img src="https://github.com/snohatech/BezierRiver/blob/main/bezierfigure/1.png">
+<img src="https://github.com/snohatech/BezierRiver/blob/main/bezierfigure/1.png" alt="alt text" width="300" height="200">
