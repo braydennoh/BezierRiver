@@ -1,5 +1,5 @@
 # BezierRiver
-Using Bézier curve to geometrically calculate river migration based on channel curvature 
+## Using Bézier curve to geometrically calculate river migration based on channel curvature 
 
 Define control points. In this example, n = 4 (quadratic Bézier curve)
 
